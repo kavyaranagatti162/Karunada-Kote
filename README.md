@@ -1,0 +1,1 @@
+Added README.md with complete project overview, features, technologies used, installation steps, and application objectives for Karunada Kote. Improved repository documentation and project presentation for better understanding and collaboration.
