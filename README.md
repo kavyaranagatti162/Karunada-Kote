@@ -1,3 +1,4 @@
+
 # ಕರ್ನಾಡ ಕೋಟೆ ಗೈಡ್ — Karunada Kote Guide
 ### Karnataka Pride: AI-Powered Heritage Fort Guide
 
@@ -136,3 +137,6 @@ that looks like an aged parchment map — matching the app's visual theme.
 - Fort historical data: Karnataka State Department of Archaeology and Museums
 - Map styling: Google Maps Styling Wizard (https://mapstyle.withgoogle.com)
 - App concept: Karnataka Pride Heritage Tourism Initiative
+=======
+Added README.md with complete project overview, features, technologies used, installation steps, and application objectives for Karunada Kote. Improved repository documentation and project presentation for better understanding and collaboration.
+
