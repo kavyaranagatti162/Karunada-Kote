@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Parchment / Historic palette -->
+    <color name="parchment_dark">#2C1A0E</color>
+    <color name="parchment_mid">#5C3317</color>
+    <color name="parchment_light">#C4956A</color>
+    <color name="parchment_cream">#F5E6C8</color>
+    <color name="parchment_bg">#FDF3DC</color>
+
+    <!-- Accent - deep royal red (Mysore palace inspired) -->
+    <color name="royal_red">#8B0000</color>
+    <color name="royal_red_light">#C0392B</color>
+    <color name="royal_gold">#C9A84C</color>
+    <color name="royal_gold_dark">#8B6914</color>
+
+    <!-- Text -->
+    <color name="text_primary">#1A0A00</color>
+    <color name="text_secondary">#5C3317</color>
+    <color name="text_on_dark">#F5E6C8</color>
+
+    <!-- Status -->
+    <color name="visited_green">#2E7D32</color>
+    <color name="unvisited_gray">#9E9E9E</color>
+</resources>

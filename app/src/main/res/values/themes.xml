@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.KarunadaKote" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/parchment_dark</item>
+        <item name="colorPrimaryVariant">@color/parchment_mid</item>
+        <item name="colorOnPrimary">@color/parchment_cream</item>
+        <item name="colorSecondary">@color/royal_gold</item>
+        <item name="colorOnSecondary">@color/parchment_dark</item>
+        <item name="android:colorBackground">@color/parchment_bg</item>
+        <item name="android:fontFamily">serif</item>
+        <item name="android:windowBackground">@color/parchment_bg</item>
+    </style>
+
+    <style name="Theme.KarunadaKote.Splash" parent="Theme.KarunadaKote">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@color/parchment_dark</item>
+    </style>
+
+    <!-- Historic button style -->
+    <style name="Widget.KarunadaKote.Button" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/royal_red</item>
+        <item name="android:textColor">@color/parchment_cream</item>
+        <item name="android:fontFamily">serif</item>
+        <item name="android:letterSpacing">0.05</item>
+        <item name="cornerRadius">4dp</item>
+    </style>
+
+    <style name="Widget.KarunadaKote.Button.Outlined" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="strokeColor">@color/royal_gold</item>
+        <item name="android:textColor">@color/royal_gold_dark</item>
+        <item name="android:fontFamily">serif</item>
+        <item name="cornerRadius">4dp</item>
+    </style>
+</resources>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    app:cardCornerRadius="4dp"
+    app:cardElevation="3dp"
+    app:cardBackgroundColor="@color/parchment_cream">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Top gold bar -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@color/royal_gold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+            <!-- Fort icon column -->
+            <LinearLayout
+                android:layout_width="48dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                android:layout_marginEnd="14dp">
+
+                <TextView
+                    android:layout_width="44dp"
+                    android:layout_height="44dp"
+                    android:text="🏰"
+                    android:textSize="28sp"
+                    android:gravity="center" />
+
+            </LinearLayout>
+
+            <!-- Text column -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_item_fort_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fort Name"
+                    android:textColor="@color/parchment_dark"
+                    android:textSize="18sp"
+                    android:fontFamily="serif"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_item_fort_name_kn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ಕೋಟೆ ಹೆಸರು"
+                    android:textColor="@color/royal_red"
+                    android:textSize="14sp"
+                    android:fontFamily="serif"
+                    android:layout_marginTop="2dp" />
+
+                <TextView
+                    android:id="@+id/tv_item_fort_dynasty"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dynasty • Year"
+                    android:textColor="@color/parchment_mid"
+                    android:textSize="12sp"
+                    android:fontFamily="serif"
+                    android:layout_marginTop="6dp" />
+
+                <!-- Progress row -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="10dp">
+
+                    <ProgressBar
+                        android:id="@+id/pb_fort_progress"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="0dp"
+                        android:layout_height="6dp"
+                        android:layout_weight="1"
+                        android:progressTint="@color/royal_gold"
+                        android:progressBackgroundTint="@color/parchment_light" />
+
+                    <TextView
+                        android:id="@+id/tv_item_fort_points"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0/5"
+                        android:textColor="@color/parchment_mid"
+                        android:textSize="11sp"
+                        android:fontFamily="serif"
+                        android:layout_marginStart="8dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- Arrow -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="›"
+                android:textColor="@color/royal_gold"
+                android:textSize="28sp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="8dp" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

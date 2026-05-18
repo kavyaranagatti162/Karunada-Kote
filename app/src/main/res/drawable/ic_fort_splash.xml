@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+
+    <!-- Fort battlements -->
+    <path
+        android:fillColor="#C9A84C"
+        android:pathData="
+        M10,110 L10,50
+        L20,50 L20,40 L30,40 L30,50
+        L50,50 L50,40 L60,40 L60,50
+        L80,50 L80,40 L90,40 L90,50
+        L110,50 L110,110 Z" />
+
+    <!-- Gate arch -->
+    <path
+        android:fillColor="#2C1A0E"
+        android:pathData="M48,110 L48,75 Q60,62 72,75 L72,110 Z" />
+
+    <!-- Tower windows -->
+    <rect android:fillColor="#2C1A0E"
+        android:left="18" android:top="62" android:right="28" android:bottom="74" />
+    <rect android:fillColor="#2C1A0E"
+        android:left="92" android:top="62" android:right="102" android:bottom="74" />
+
+    <!-- Flag -->
+    <path android:fillColor="#8B0000"
+        android:pathData="M60,38 L60,20 L75,29 Z" />
+    <line android:strokeColor="#C9A84C" android:strokeWidth="2"
+        android:x1="60" android:y1="20" android:x2="60" android:y2="42" />
+
+    <!-- Stars above fort -->
+    <path android:fillColor="#C9A84C"
+        android:pathData="M30,15 L32,20 L37,20 L33,23 L34,28 L30,25 L26,28 L27,23 L23,20 L28,20 Z" />
+    <path android:fillColor="#C9A84C"
+        android:pathData="M90,15 L92,20 L97,20 L93,23 L94,28 L90,25 L86,28 L87,23 L83,20 L88,20 Z" />
+</vector>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Simple fort/castle silhouette -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M3,21 L3,9 L6,9 L6,7 L8,7 L8,9 L11,9 L11,7 L13,7 L13,9 L16,9 L16,7 L18,7 L18,9 L21,9 L21,21 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M9,21 L9,15 L15,15 L15,21 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M11,18 L13,18 L13,21 L11,21 Z" />
+</vector>
